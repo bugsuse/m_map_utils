@@ -29,7 +29,7 @@ else
      % Sneaky way of making default clipping on (sneaky 'cause only the 4th
      % input parameter is checked for the clipping property)
      [lon, lat] = m_ll2xy(lon, lat);
-     mapshow(lon, lat, 'color', 'k');     
+     mapshow(lon, lat, 'color', 'k', 'linewidth', 1.2);     
   end
 
 end
